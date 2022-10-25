@@ -16,3 +16,21 @@ C.) student.greeting()
 D.) student['Favorite Teacher'].name
 E.) student.courseLoad[0]
 13.)
+A.) '32', because 2 will map to '2'.
+B.) 1, because '3' will map to 3, so 3 - 2 = 1
+C.) 3, because null will map to 0 and 3 + 0 = 3.
+D.) '3null', because null will map to 'null'.
+E.) 4, because true gets mapped to 1, so 1 + 3 = 4.
+F.) 0, because false gets mapped to 0 and null gets mapped to 0, so 0 + 0 = 0.
+G.) '3undefined', because undefined gets mapped to 'undefined'. 
+H.) NaN, becausae undefined gets mapped to NaN, so the whole thing becomes NaN
+14.)
+A.) true, because '2' gets mapped to 2 and 2 > 1 is true.
+B.) false, because '2' has a higher alphabet index than '12'.
+C.) true, because '2' gets mapped to 2, so 2 == 2.
+D.) false, because === does not convert the '2', so they both are different objects, thus false.
+E.) false, because true gets mapped to 1 and 1 == 2 is false.
+F.) true, because Boolean(2) maps to true, so true == true.
+15.) == checks if the two sides are equal with type conversion. === checks if the two sides are equal without type conversion
+17.) The function modifyArray is called with the parameters of an array and a callbackFunction. The function modifyArray iterates over the array input and pushes each element with the callbackFunction doSomething, which multiplies the element by 2. Since our input array is [1, 2, 3], if we multiply each element by 2, we will get [2, 4, 6].
+19.) 1 4 3 2
